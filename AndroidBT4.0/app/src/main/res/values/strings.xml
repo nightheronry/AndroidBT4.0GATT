@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CC2650_BLE_test</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+</resources>

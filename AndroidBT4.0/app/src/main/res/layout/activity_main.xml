@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ButtonGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonScan"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Scan"
+            android:textSize="20.0sp" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Clear"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+        <TextView
+            android:id="@+id/tv_console"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/tv_temp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/tv_hum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" >
+        </TextView>
+        <TextView
+            android:id="@+id/tv_motion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" >
+        </TextView>
+
+</LinearLayout>
